@@ -1,0 +1,45 @@
+.mpush,.epush,.ppush,.gpush{
+  height:50px;
+  width:100px;
+  color:red;
+  float: left;
+  margin-right: 100px;
+
+}
+
+ul{
+  overflow: visible
+  letter-spacing: -.5em;
+}
+li{
+  margin:1%;
+  display: inline-block;
+  width: 15%;
+  vertical-align: middle;
+  letter-spacing: 0;
+  text-align: center;
+}
+.goukei,.mgoukei,.egoukei,.pgoukei,.ruret{
+  width:100px;
+  height:50px;
+  border: solid 3px #000;
+  margin-right:115px;
+}
+
+.contents{
+  display:flex;
+  margin-right:10%;
+}
+
+.hyouji{
+  margin:3%;
+}
+
+.random{
+  height:50px;
+  width:100px;
+}
+
+.ruret{
+  font-size:20px;
+}

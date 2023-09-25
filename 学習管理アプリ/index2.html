@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>学習管理アプリ</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style2.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="program.js"></script>
+</head>
+
+<body>
+  <h1>学習記録</h1>
+
+  <div class="contents">
+    <div class="hyouji">
+        <li><button type="button" class="mpush">数学</button></li>
+          <li class="mgoukei">数学</li>
+    </div>
+    <div class="hyouji">
+        <li><button type="button" class="epush">英語</button></li>
+          <li class="egoukei">英語</li>
+    </div>
+    <div class="hyouji">
+      <li><button type="button" class="ppush">物理</button></li>
+      <li class="pgoukei">物理</li>
+    </div>
+    <div class="hyouji">
+      <li><button type="button" class="gpush">合計</button></li>
+      <li class="goukei">合計時間</li>
+    </div>
+  </div>
+
+  <div class="kettei">
+    <li class="kimeta"><button type="button" class=random>ランダム</button></li>
+    <li class=ruret>ランダム</li>
+
+    <li class="barus"><button type="button" class=riset>リセット</button></li>
+  </div>
+
+  <div class="nuri">
+    <table border="1">
+      <script>
+	for(i=0;i<=4;i++){
+	  document.write("<tr>");
+	  for(x=1;x<=40;x++){
+	    document.write("<th class=a"+(i*40+x)+"></th>")
+	  }
+	document.write("</tr>");
+        }
+      </script>
+    </table>
+  </div>
+</body>
+</html>
